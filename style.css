@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+  }
+  .main-screen{
+    width:100%;
+    height:100vh;
+   background-color: rgb(0, 0, 15);
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+  }
+  .left{
+    font-size: 2rem;
+    color: rgb(57, 57, 117);
+    position: relative;
+    left: 70px;
+  }
+  .mid ul{
+    display: flex;
+    list-style: none;
+  }
+  .mid ul li{
+    margin: 30px 30px;
+    position: relative;
+    left: 100px;
+  }
+  .mid ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .mid ul li a:hover{
+    color: rgb(57, 57, 117);
+  }
+  .right{
+    display: flex;
+  }
+  .right .vertical-line{
+    width:1px;
+    height: 50px;
+    position: relative;
+    left:30px;
+    border-right: 1px solid white;
+  }
+  .right .search{
+    height: 45px;
+    background: #131313;
+    border: none;
+    width: 300px;
+    position: relative;
+    top: 1px;
+    left:60px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    font-size: 1.2rem;
+    padding-left: 10px;
+  }
+  .right .search::placeholder{
+    font-family: 'poppins',sans-serif;
+    font-size: 1.2rem;
+  }
+  #bg{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top:100px;
+    left: 800px;
+  }
+  .main{
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+    color: white;
+  }
+  .main #name{
+    color: rgb(66, 66, 141);
+    font-size: 1.2rem;
+  }
+  .inline{
+    font-size: 1.1rem;
+  }
+  .main ul li{
+    position: relative;
+    left: 20px;
+    font-size: 1.1rem;
+  }
+  .main ul li:hover{
+    color: rgb(66, 66, 141);
+    cursor: pointer;
+  }
+  .about{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    left: 30px;
+    width: 80%;
+  }
+  .about p{
+    font-size: 1.1rem;
+  }
+  .services{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 220px;
+    width: 80%;
+  }
+  .services p{
+    font-size: 1.1rem;
+  }
+  .help{
+    text-align: center;
+    position: relative;
+    top: 240px;
+    left: 30px;
+    width: 80%;
+  }
+  .help p{
+    font-size: 1.1rem;
+  }
+  .skills{
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ms{
+    display: inline;
+    position: relative;
+    left:580px;
+    top: 300px;
+    font-size: 2rem;
+  }
+  .skills div{
+    text-align: center;
+    background-color:rgb(1, 1, 24);
+    color: white;
+    width: 260px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+  }
+  .contact{
+    display:inline-flex;
+    position: relative;
+    top:500px;
+    left: 540px;
+    width: 700px;
+  }
+  .contact input{
+    display: block;
+    border: none;
+    background: #0e0d0d;
+    border-radius: 12px;
+    margin: 20px;
+    width: 340px;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.2rem;
+  }
+  .contact textarea{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    font-size: 1.1rem;
+  }
+  .contact .left{
+    position: relative;
+    left: -400px;
+  }
+  .contact .left button{
+    padding: 5px;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    left:-190px;
+  }
+  .contact .left button:hover{
+    cursor: pointer;
+  }
+  .contact .vertical-line{
+    width: 1px;
+    height: 450px;
+    border-right: 1px solid black;
+    position: relative;
+    left: -300px;
+  }
+  .contact .right{
+    display: flex;
+    flex-direction: column;
+    line-height: 160px;
+    position: relative;
+    right: 200px;
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background: #000;
+    position: relative;
+    top: 500px;
+    color: white;
+    font-size: 1.3rem;
+  }
